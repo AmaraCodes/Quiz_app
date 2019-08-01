@@ -1,0 +1,67 @@
+body{
+  background: url(pic11.jpg) no-repeat;
+  background-size: cover;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 50rem;
+
+}
+
+h1{
+text-align: center;
+font-size: 5rem;
+color: #778897;
+margin-top: 3rem;
+}
+
+ a{
+ text-align: center; 
+ text-decoration: none; 
+ color: black;
+ font-size: 1.5rem;
+
+} 
+
+
+.btn:focus{
+  outline: 0;
+}
+
+ #playBtn{
+  outline: 0 none;
+  /* height: 3rem;
+  width: 7rem;
+  background-color: #778897;
+  text-align: center;
+   padding-top: 1.2rem;
+  margin-top: 3rem; 
+  border-radius: 20px; */
+} 
+
+ #highScoreBtn{
+   outline: 0 none;
+  /* height: 3rem;
+  width: 10rem;
+  background-color: #778897;
+  text-align: center;
+  padding-top: 1rem;
+  margin-top: 3rem;
+  border-radius: 20px; */
+} 
+
+#buttons{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: .5rem;
+}
+
+#playBtn:hover{
+  /* background-color: #5a6874; */
+  cursor: pointer;
+  transform: scale(1.025);
+} 
+
+ #highScoreBtn:hover{
+  /* background-color: #5a6874; */
+  cursor: pointer;
+  transform: scale(1.025);
+}
